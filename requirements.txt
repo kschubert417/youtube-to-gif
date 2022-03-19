@@ -1,0 +1,4 @@
+Flask==1.1.2
+flask_talisman==0.8.1
+moviepy==1.0.3
+pytube==12.0.0

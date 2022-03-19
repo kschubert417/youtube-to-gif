@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" >
+
+{% include 'header.html' %}
+
+<body>
+    <!-- <link rel="stylesheet" href="../static/styles/textstyle.css"> -->
+    <h1 class="firstheader">Create One Gif File</h1>
+    <p>Use this function to create one gif file with one desired start/stop time
+        from one YouTube video
+    </p>
+    <form action="/onevidonegif" method = "post">
+        <label for="url">YouTube URL</label>
+        <input type="url" name="link" placeholder="Copy and Paste YouTube URL" required>
+        <br>
+        <label for="Start Time">Start Time:</label>
+        <input type="text" name="start" value="00:00:00.000" required>
+        <br>
+        <label for="End Time">End Time:</label>
+        <input type="text" name="end" value="00:00:00.000" required>
+        <br><br>
+        <input class="button" type="submit" value="Create">
+    </form>
+</body>
+</html>

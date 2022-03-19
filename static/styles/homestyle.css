@@ -1,0 +1,115 @@
+/* For top ribbon */
+img{
+    width: 100px;
+    object-fit: cover;
+}
+
+nav {
+    background-color: #383838; /*sentinal gray*/
+    border-bottom: 2px solid #000000; /*black*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+}
+
+li {
+    display: inline-block;
+    margin-right: -9px;
+}
+
+a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #00b2ff; /* teal */
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #00b2ff; /* teal */
+    color: #383838; /*sentinal gray*/
+}
+
+/*text style*/
+body {
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    /*background: #4a4a4a; gray*/
+    background: white;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 150%;
+}
+
+h1.firstheader {
+  border-top: 0px;
+}
+
+h1 {
+  /*color: white;*/
+  color: black;
+  border-top: 5px solid #00b2ff;
+  font-weight: bold;
+  font-size: 45px;
+  float: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  /*color: white;*/
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  float: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  /*color: white;*/
+  color: black;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Button Styling */
+input.button{
+  /*https://www.w3schools.com/css/css3_buttons.asp*/
+  color: #00b2ff; /* teal */
+  background-color: #383838; /*Sentinal Gray*/
+  font-size: 20px;
+  border-radius: 5px; /*Make rouned border*/
+  width: 10%;
+  transition-duration: 0.1s;
+}
+
+input.button:hover {
+  background-color: #00b2ff; /* teal */
+  color: #383838; /*Sentinal Gray*/
+  border: 1px solid #383838; /*Sentinal Gray*/
+}
+
+/*function style*/
+input {
+    color: black;
+    width: 20%;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    /*background-color: #383838;*/
+    border: 1.5px solid #00b2ff; /* teal */
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    /*color: white;*/
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: #00b2ff;*/
+}
